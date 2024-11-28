@@ -1,0 +1,10 @@
+<div class="dettagli-pizza">
+  <h2>Dettagli Pizza</h2>
+  <p><strong>Nome:</strong> {{ pizza?.nomePizza }}</p>
+  <p><strong>Ingredienti:</strong> {{ pizza?.ingredienti?.join(", ") }}</p>
+  <p><strong>Prezzo:</strong> €{{ pizza?.prezzo }}</p>
+  <p>
+    <strong>Disponibilità:</strong>
+    {{ pizza?.disponibilita ? "Disponibile" : "Non disponibile" }}
+  </p>
+</div>

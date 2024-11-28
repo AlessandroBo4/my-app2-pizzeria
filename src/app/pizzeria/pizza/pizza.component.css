@@ -1,0 +1,12 @@
+h2 {
+  color: rgb(173, 0, 0);
+  font-size: 3rem;
+}
+
+.dettagli-pizza {
+  background-color: antiquewhite;
+  width: fit-content;
+  height: fit-content;
+  border: 3px solid black;
+  padding: 2em;
+}

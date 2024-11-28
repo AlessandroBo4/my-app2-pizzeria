@@ -1,0 +1,17 @@
+h2 {
+  color: rgb(173, 0, 0);
+  font-size: 3rem;
+}
+
+.menu {
+  background-color: antiquewhite;
+  width: fit-content;
+  height: fit-content;
+  border: 3px solid black;
+  padding: 2em;
+}
+
+li {
+  font-size: 1.5rem;
+  padding: 0.5em;
+}
